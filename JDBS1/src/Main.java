@@ -6,7 +6,7 @@ public class Main {
 
         String url = "jdbc:mysql://localhost:3306/school";
         String username = "root";
-        String password = "@Anshulsingh66";
+        String password = "@EnterYourMysqlPassword";
 //        String query = "SELECT * FROM employees WHERE name = ? and job_title = ?";
           String query ="INSERT INTO employees (name, job_title, salary) VALUES (?,?,?)";
         try {
